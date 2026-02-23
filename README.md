@@ -1,22 +1,40 @@
 # Bus Ticket Booking System (C)
 
 ## Overview
-This is a console-based Bus Ticket Booking System developed in C.  
-The system allows users to manage bus reservations, view schedules, and handle ticket booking operations using file-based storage.
 
-The project demonstrates fundamental C programming concepts including file handling, structured programming, and user interaction logic.
+This project is a console-based Bus Ticket Booking System developed in C.
+
+The system supports role-based access (Admin and Passenger), schedule management, ticket booking with seat selection, invoice generation, cancellation processing, and monthly performance reporting.
+
+All data is persisted using text files, demonstrating file-based record management and structured programming in C.
+
 
 
 ## Features
-- View available bus schedules
-- Book bus tickets
-- Cancel reservations
-- Store booking records using text files
-- Simple menu-driven interface
+
+### Admin
+- Secure login authentication
+- Add, update, delete bus schedules
+- View all schedules
+- Generate monthly income/loss report
+- Analyze payment method statistics
+
+### Passenger
+- Register new account
+- Login authentication
+- Search bus schedules (origin, destination, date)
+- Book one-way or round-trip tickets
+- Seat selection with availability control
+- Ticket ID auto-generation (T0001 format)
+- Invoice ID auto-generation (I0001 format)
+- Cancel booking with refund processing
+- Track frequent routes and payment preferences
 
 ## Technologies Used
-- C Programming Language
-- File I/O (fopen, fprintf, fscanf)
-- Text-based data persistence
 
-## Project Structure
+- C Programming Language
+- Structured Programming
+- File I/O (fopen, fprintf, fscanf)
+- Data persistence using text files
+- Menu-driven CLI interface
+
