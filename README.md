@@ -22,11 +22,11 @@ All data is persisted using text files, demonstrating file-based record manageme
 ### Passenger
 - Register new account
 - Login authentication
-- Search bus schedules (origin, destination, date)
+- Search bus schedules 
 - Book one-way or round-trip tickets
 - Seat selection with availability control
-- Ticket ID auto-generation (T0001 format)
-- Invoice ID auto-generation (I0001 format)
+- Ticket ID auto-generation 
+- Invoice ID auto-generation 
 - Cancel booking with refund processing
 - Track frequent routes and payment preferences
 
